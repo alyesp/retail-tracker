@@ -11,17 +11,17 @@ I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 
 ### Acceptance 
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete data in my database
+* `GIVEN a functional Express.js API`
+* WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+* THEN I am able to connect to a database using Sequelize
+* WHEN I enter schema and seed commands
+* THEN a development database is created and is seeded with test data
+* WHEN I enter the command to invoke the application
+* THEN my server is started and the Sequelize models are synced to the MySQL database
+* WHEN I open API GET routes in Insomnia for categories, products, or tags
+* THEN the data for each of these routes is displayed in a formatted JSON
+* WHEN I test API POST, PUT, and DELETE routes in Insomnia
+* THEN I am able to successfully create, update, and delete data in my database
 
 ## Database Models
 
@@ -95,3 +95,17 @@ You'll need to execute association methods on your Sequelize models to create th
 * Tag belongs to many Product models. 
 
 ### Instructions to run the app
+* Getting started
+  * npm i mysql2
+  * npm i sequelize
+  * npm i dotenv
+
+* To store sensitive data place your MYSQL username, password, and database name in .env 
+
+* Use the models template above to set up the models.
+
+* Seed the Database
+  * After creating the models, run `npm run seed` to test the routes.
+
+* Log into Insomnia to test your routes for GET, PUT, POST and DELETE.
+
