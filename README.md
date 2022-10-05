@@ -1,7 +1,7 @@
 # Object- Relational Mapping(ORM) E-commerce Back End 
 
 ## Description 
-This is the back enf for an e-commerce site. Take a working Express.js API and configure it to use Sequelize to into MySQL database.
+This is the back end for an e-commerce site. Take a working Express.js API and configure it to use Sequelize to into MySQL database.
 
 ### Video walk through:
 
