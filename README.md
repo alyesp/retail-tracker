@@ -4,6 +4,17 @@
 This is the back end for an e-commerce site. Take a working Express.js API and configure it to use Sequelize to into MySQL database.
 
 ### Video walk through:
+[Link to video walk through](https://drive.google.com/file/d/1x9NLXFnZO5eVdIvHjCU0d01JOo7mP_zw/view)
+
+### My ScreenShots
+![myscreenshots](./Develop/assets/images/nodeSI.png)
+
+This shows the MYSQL tables being started by `node seeds/index.js`
+
+![myscreenshots](./Develop/assets/images/start.png)
+
+This shows that the nodes has started and is listening on PORT 3001 by starting `npm start`
+
 
 ### User Story
 AS A manager at an internet retail company
@@ -105,7 +116,9 @@ You'll need to execute association methods on your Sequelize models to create th
 * Use the models template above to set up the models.
 
 * Seed the Database
-  * After creating the models, run `npm run seed` to test the routes.
+  * After creating the models, run `npm run seed` to test the routes in CLI.
+  * MYSQL tables being started by `node seeds/index.js` in CLI
+  * Start node by running `npm start` in CLI
 
 * Log into Insomnia to test your routes for GET, PUT, POST and DELETE.
 
